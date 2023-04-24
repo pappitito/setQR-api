@@ -7,7 +7,6 @@
     "build": "netlify-lambda build src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' server.ts"
-    
   },
   "author": "devbanger",
   "license": "ISC",
@@ -23,6 +22,7 @@
     "easyqrcodejs-nodejs": "^4.4.5",
     "encoding": "^0.1.13",
     "gcp-metadata": "^5.2.0",
+    "generate-api-key": "^1.0.2",
     "gm": "^1.25.0",
     "gm-base64": "^1.1.1",
     "helmet": "^6.0.1",
