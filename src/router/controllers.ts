@@ -250,7 +250,7 @@ async function sendMail(req: any, res: any){
         service: 'gmail',
         auth: {
             user: 'titonwudinjo@gmail.com',
-            pass: 'dujmkqcxbzlqpdhm'
+            pass: process.env.AUTHKEY
         }
     });
 
